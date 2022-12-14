@@ -40,6 +40,13 @@ footer {
     color: white;
 }
 
+#fanClub-section::before {
+    content:"";
+    display: block;
+    height: 100px;
+    background:  #333;
+}
+
 #fanClub-section .fas {
     color: #008ed6;
     background: white;
