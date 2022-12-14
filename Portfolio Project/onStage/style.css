@@ -34,3 +34,15 @@ footer {
     font-size: 70px;
     color:black;
 }
+
+#create-section {
+    background: #333;
+    color: white;
+}
+
+#create-section .fas {
+    color: #008ed6;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
