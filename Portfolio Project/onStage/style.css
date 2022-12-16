@@ -47,6 +47,13 @@ footer {
     background:  #333;
 }
 
+#eventCards::before {
+    content:"";
+    display: block;
+    height: 100px;
+    background:  white;
+}
+
 #fanClub-section .fas {
     color: #008ed6;
     background: white;
