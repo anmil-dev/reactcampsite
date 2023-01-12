@@ -1,15 +1,15 @@
-import './App.css';
-import CampsitesList from './features/campsites/CampsitesList';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import FilteredCampsites from './features/campsites/FilteredCampsites';
+import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
+import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <CampsitesList />
-      <FilteredCampsites activity='hiking' />
+      <CampsitesDirectoryPage />
       <Footer />
     </div>
   );
